@@ -1,0 +1,251 @@
+.leftbg {
+    float: left;
+    background-color: pink;
+    width: 375px;
+    height: 794px;
+    overflow: hidden;
+}
+
+.rightmain {
+    float: left;
+    width: 75%;
+}
+
+.leftbg img {
+    width: 375px;
+}
+
+/* 顶部导航 */
+.topNav {
+    height: 80px;
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 24px;
+}
+
+.topNav .left {
+    float: left;
+    width: 154px;
+    height: 40px;
+    margin-left: 24px;
+}
+
+.topNav .left img {
+    width: 40px;
+    height: 40px;
+}
+
+.topNav .left h3 {
+    display: inline;
+}
+
+.topNav .right {
+    float: right;
+}
+
+.topNav .right li {
+    float: left;
+    margin: 0 10px;
+}
+
+.topNav .right li a {
+    font-size: 14px;
+    color: #838383;
+}
+
+.topNav .right li a:hover {
+    color: #ff6900;
+}
+
+/* 登录部分 */
+.login {
+    position: relative;
+    height: 674px;
+    /* background-color: blue; */
+
+}
+
+.login-center {
+    position: absolute;
+    width: 450px;
+    height: 570px;
+    /* background-color: blue; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* overflow: hidden; */
+    border: 1px solid #f1f1f1;
+}
+
+.login-center .toggle {
+    float: right;
+    margin-top: -16px;
+    margin-right: -16px;
+    cursor: pointer;
+}
+
+.login-center .toggle img {
+    width: 64px;
+    height: 64px;
+}
+
+.login-main {
+    margin: 50px 0 0 46px;
+    width: 360px;
+    height: 490px;
+    /* background-color: red; */
+}
+
+.login-center ol {
+    width: 360px;
+    height: 41px;
+    /* border: 1px solid red; */
+}
+
+.login-center ol li {
+    float: left;
+    margin-right: 10px;
+    line-height: 41px;
+}
+
+.login-center ol li a {
+    font-size: 22px;
+    color: #bbb;
+    font-weight: 700;
+}
+
+.login-center ol .current a {
+    color: #333;
+    border-bottom: 4px solid #ff5c00;
+}
+
+.login-center input {
+    width: 356px;
+    height: 62px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    text-indent: 2em;
+}
+
+.login-center form .sub-text-span,
+.login-center form .sub-pas-span {
+    font-size: 12px;
+    color: #f04645;
+    display: none;
+}
+
+.login-center form>div {
+    position: relative;
+}
+
+.login-center form>div .tiaokuan {
+    display: none;
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    background-color: #fdfdfd;
+    left: 88px;
+    line-height: 50px;
+    text-align: center;
+    top: 20px;
+}
+
+.login-center form>div .inp-checkbox {
+    width: 15px;
+    height: 15px;
+    margin-top: 30px;
+}
+
+.login-center .denglu form>div label {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.login-center .denglu form>div label a {
+    color: #333;
+    margin: 0 2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.login-center .submit {
+    color: #fff;
+    background-color: #ffbe99;
+    text-indent: 0em;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-center .denglu form>span a {
+    display: inline-block;
+    color: #ff7c26;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.login-center .qita {
+    width: 360px;
+    height: 96px;
+    margin-top: 50px;
+}
+
+.login-center .qita p {
+    text-align: center;
+}
+
+.login-center .qita ul {
+    margin-top: 10px;
+    width: 319px;
+    height: 46px;
+    margin-left: 43px;
+}
+
+.login-center .qita ul li {
+    float: left;
+    width: 46px;
+    height: 46px;
+    margin-right: 30px;
+}
+
+.login-center .qita ul li img {
+    width: 46px;
+    height: 46px;
+}
+
+.login-main .hidden>ul {
+    position: absolute;
+    width: 730px;
+    height: 450px;
+
+}
+
+.login-main .hidden>ul>li {
+    float: left;
+    width: 360px;
+    height: 450px;
+}
+
+.login-main .hidden {
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+    height: 450px;
+    z-index: 999;
+}
+
+.login-center form .inp-wrong {
+    background-color: #fcf2f3;
+}
+
+.inp-wrong::-webkit-input-placeholder {
+    color: #f24645;
+}
+
+.inp-focus {
+    border: 1px solid #ff5c00;
+}
+
+.login-center .submit-right {
+    background-color: #ff5c00;
+}
